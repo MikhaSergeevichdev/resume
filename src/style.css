@@ -1,0 +1,118 @@
+@import './styles/global.css';
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color: #222;
+	background-color: #ffffff;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #ffffff;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: azure;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	background-color: rgb(56, 56, 56);
+	height: var(--header-height);
+}
+
+header nav {
+	display: flex;
+}
+
+header a {
+	color: #fff;
+	padding: 0.75rem;
+	text-decoration: none;
+}
+
+header a.active {
+	background-color: #0005;
+}
+
+header a:hover {
+	background-color: #0008;
+}
+
+main {
+	flex: auto;
+	display: flex;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	gap: 80px;
+	padding-block: 2rem;
+}
+
+@media (max-width: 576px) {
+	main {
+		padding-block: 2rem;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		color: #ccc;
+		background-color: #1a1a1a;
+	}
+}
+
+.screen-shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: black;
+	opacity: 0.8;
+	z-index: 20;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.active {
+	position: relative;
+	z-index: 21;
+	background-color: #ffffff;
+}
+
+.bg-gray {
+	background-color: rgb(36, 36, 36);
+}
+.bg-gray img {
+	border-radius: 6px;
+}
+
+.spinner__container-absolute {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 50%;
+	z-index: 32;
+}

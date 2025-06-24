@@ -1,0 +1,35 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@preact/signals": "^2.0.1",
+		"bootstrap": "^5.3.3",
+		"bootstrap-icons": "^1.11.3",
+		"cors": "^2.8.5",
+		"html2pdf.js": "^0.10.3",
+		"i18next": "^24.2.3",
+		"preact": "^10.25.3",
+		"preact-iso": "^2.9.1",
+		"react-flip-toolkit": "^7.2.4",
+		"react-toastify": "^11.0.5",
+		"sass": "^1.86.0"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.9.3",
+		"@types/node": "^22.13.13",
+		"eslint": "^8.57.1",
+		"eslint-config-preact": "^1.5.0",
+		"prettier": "^3.5.3",
+		"typescript": "^5.8.2",
+		"vite": "^6.0.4"
+	},
+	"eslintConfig": {
+		"extends": "preact"
+	}
+}

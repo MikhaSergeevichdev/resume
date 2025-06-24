@@ -1,0 +1,115 @@
+{
+	"common": {
+		"name": "Mikhail Sergeevych",
+		"position": "Frontend-developer",
+		"location": "Odessa, Ukraine",
+		"personal": "34, married, one child",
+		"downloadLetterRu": "Download Recommendation in Russian",
+		"downloadLetterEn": "Download Recommendation in English",
+		"": ""
+	},
+
+	"titles": {
+		"exp": "Experience",
+		"skills": "Skills",
+		"about": "About Me",
+		"contact": "Contact",
+		"education": "Education",
+		"": ""
+	},
+
+	"education": {
+		"1": {
+			"title": "National University of Shipbuilding",
+			"subtitle": "named after Admiral Makarov"
+		},
+		"2": {
+			"text": "2008-2014, Mykolayiv, Ukraine"
+		},
+		"3": {
+			"title": "Department",
+			"text": "Marine Engineering Technology"
+		},
+		"4": {
+			"title": "Degree awarded",
+			"text": "Master of Engineering"
+		}
+	},
+
+	"exp1": {
+		"1": {
+			"title": "YugElevator LLC",
+			"subtitle": "Manufacturer of elevator equipment"
+		},
+		"2": {
+			"text": "2016-2023, Mykolayiv, Ukraine"
+		},
+		"3": {
+			"title": "Positions",
+			"text1": "Production Engineer, 2016-2017;",
+			"text2": "lead Engineer of Pilot Production, 2017-2019;",
+			"text3": "Design Engineer, Service Mandger, 2018-2023;"
+		},
+		"4": {
+			"title": "Qualification obtained",
+			"text": "First-Class Engineer"
+		}
+	},
+
+	"exp2": {
+		"1": {
+			"title": "WinSoft"
+		},
+		"2": {
+			"text": "2024-2025"
+		},
+		"3": {
+			"title": "Positions",
+			"text1": "Front-End Developer Intern, 2024;",
+			"text2": "Junior Front-End Developer, 2024-2025;"
+		},
+		"4": {
+			"title": "Tasks",
+			"text1": "Developed the admin dashboard for managing merchants and configuring payment flow routing using Vue.js",
+			"text2": "Development of payment forms in Preact.js",
+			"text3": "Creation landing pages from Figma designs using Astro.js"
+		}
+	},
+
+	"skills1": {
+		"title": "Frontend",
+		"text1": "TypeScript",
+		"text2": "Vue.js (vuex, vue-router)",
+		"text3": "React.js / Preact.js",
+		"text4": "Astro.js",
+		"text5": "i18n"
+	},
+
+	"skills2": {
+		"title": "UI & Design",
+		"text1": "CSS/SCSS",
+		"text2": "Bootstrap",
+		"text3": "Tailwind"
+	},
+
+	"skills3": {
+		"title": "Tools",
+		"text1": "Git, Gitlab",
+		"text2": "Jira",
+		"text3": "Vite, NPM",
+		"text4": "Figma"
+	},
+
+	"skills4": {
+		"title": "Backend",
+		"text1": "Node.js",
+		"text2": "Express.js",
+		"text3": "REST API"
+	},
+
+	"about": {
+		"p1": "Frontend developer with about one year of commercial experience. Working with a modern tech stack: TypeScript, Vue, and Preact. Familiar with responsive design principles, SPA development, and basics of SSR. I prefer working with application logic and structure — more interested in interface behavior and architecture than pure markup. Open to remote work only.",
+		"p2": "My priority is improving technical skills. Currently self-learning application optimization techniques, mobile app development, Telegram bots, and working with WebSocket.",
+		"p3": "Open to remote work only."
+	}
+}

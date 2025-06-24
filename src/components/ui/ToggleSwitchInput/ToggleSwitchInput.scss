@@ -1,0 +1,53 @@
+.toggle {
+	&__switch {
+		position: relative;
+		display: inline-flex;
+		border: 1px solid #0d6efd;
+		border-radius: 0.5rem;
+		overflow: hidden;
+		height: 40px;
+	}
+
+	&__thumb {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 33%;
+		height: 100%;
+		background-color: #0d6efd;
+		border-radius: 0.5rem;
+		transition: transform 0.3s ease;
+		z-index: 0;
+	}
+
+	&__option {
+		position: relative;
+		z-index: 1;
+		text-align: center;
+		line-height: 1;
+		padding: 0.6rem;
+		cursor: pointer;
+		user-select: none;
+		background-color: transparent;
+		color: #797979;
+		font-weight: 500;
+		transition: color 0.2s;
+		white-space: nowrap;
+		min-width: 50px;
+
+		&.active {
+			color: white;
+		}
+	}
+}
+
+@media (max-width: 830px) {
+	.toggle__switch {
+		position: relative;
+
+		.toggle__option {
+			width: auto !important;
+			padding: 0.6rem 1rem;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+.header {
+	@media screen and (max-width: 680px) {
+		&__content {
+			flex-direction: column;
+		}
+		&__text {
+			margin-left: 0 !important;
+		}
+	}
+}
+
+.pdf-divider {
+	display: flex;
+	height: 110px;
+}

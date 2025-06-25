@@ -108,7 +108,7 @@
 	},
 
 	"about": {
-		"p1": "Frontend developer with about one year of commercial experience. Working with a modern tech stack: TypeScript, Vue, and Preact. Familiar with responsive design principles, SPA development, and basics of SSR. I prefer working with application logic and structure — more interested in interface behavior and architecture than pure markup. Open to remote work only.",
+		"p1": "Frontend developer with about one year of commercial experience. Working with a modern tech stack: TypeScript, Vue, and Preact. Familiar with responsive design principles, SPA development, and basics of SSR. I prefer working with application logic and structure",
 		"p2": "My priority is improving technical skills. Currently self-learning application optimization techniques, mobile app development, Telegram bots, and working with WebSocket.",
 		"p3": "Open to remote work only."
 	}

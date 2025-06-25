@@ -25,7 +25,7 @@ export const Logos = () => {
 		<div class='tech-logos'>
 			{logosList.map((name) => (
 				<img
-					src={`/assets/logos/${name}`}
+					src={`assets/logos/${name}`}
 					alt={name.replace('.png', '')}
 					class='tech-logos__item'
 				/>

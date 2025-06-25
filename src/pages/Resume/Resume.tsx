@@ -19,8 +19,9 @@ import { DownloadLetterButton } from '@/components/ui/DownloadLetter'
 
 const Resume = () => {
 	const mainRef = useRef<HTMLDivElement>(null)
-	const letterUrlEn = '/assets/letterEn.pdf'
-	const letterUrlRu = '/assets/letterRu.pdf'
+	const letterUrlEn = 'assets/letterEn.pdf'
+	const letterUrlRu = 'assets/letterRu.pdf'
+
 	const onDownload = () => {
 		tryToExport.value = true
 
@@ -35,7 +36,7 @@ const Resume = () => {
 		<div class='container my-3' ref={mainRef}>
 			<div class='d-flex justify-content-between header'>
 				<div class='header__content d-flex w-100'>
-					<img src='/assets/portrait.webp' alt='Avatar' class='header__avatar' width='200' />
+					<img src='assets/portrait.webp' alt='Avatar' class='header__avatar' width='200' />
 					<span class='header__text ms-3 text-start'>
 						<h1 class='mt-3 f-size-32 f-color-label'>{t('common.name')}</h1>
 						<h3 class='mt-3 f-size-24 f-color-text'>{t('common.position')}</h3>

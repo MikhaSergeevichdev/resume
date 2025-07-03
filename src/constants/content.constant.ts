@@ -43,7 +43,7 @@ export const skills = [
 	},
 	{
 		title: 'skills4.title',
-		text: ['skills4.text1', 'skills4.text2', 'skills4.text3', 'skills4.text4'],
+		text: ['skills4.text1', 'skills4.text2', 'skills4.text3'],
 	},
 ]
 

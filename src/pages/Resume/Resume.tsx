@@ -16,6 +16,7 @@ import { Logos } from '@/components/grids/Logos'
 import { tryToExport } from '@/store/app.signals'
 import { about } from '@/constants/content.constant'
 import { DownloadLetterButton } from '@/components/ui/DownloadLetter'
+import CopyBtn from '@/components/ui/CopyBtn/CopyBtn'
 
 const Resume = () => {
 	const mainRef = useRef<HTMLDivElement>(null)
@@ -38,8 +39,8 @@ const Resume = () => {
 				<div class='header__content d-flex w-100'>
 					<img src='assets/portrait.webp' alt='Avatar' class='header__avatar' width='200' />
 					<span class='header__text ms-3 text-start'>
-						<h1 class='mt-3 f-size-32 f-color-label'>{t('common.name')}</h1>
-						<h3 class='mt-3 f-size-24 f-color-text'>{t('common.position')}</h3>
+						<h1 class='f-size-32 f-color-label'>{t('common.name')}</h1>
+						<h3 class='mt-2 f-size-24 f-color-text'>{t('common.position')}</h3>
 						<Divider />
 						<span class='contacts f-size-16 f-color-text'>
 							<p class='mb-2'>
@@ -50,16 +51,18 @@ const Resume = () => {
 								<i class='bi bi-file-earmark-person me-2' />
 								{t('common.personal')}
 							</p>
-							<span class=''>
-								{contacts.map((contact) => (
-									<span class='me-3 d-flex'>
-										<Icon name={contact.name} />
-										<a href={contact.url} target='_blank'>
-											{contact.title}
-										</a>
-									</span>
-								))}
-							</span>
+							{contacts.map((contact) => (
+								<span class='me-3 d-flex contact'>
+									<Icon name={contact.name} />
+									{	contact.url				
+										? <a href={contact.url} target='_blank'>{contact.title}</a>
+										: <>{contact.title}</>
+									}
+									<CopyBtn
+										textToCopy={contact.title}
+									/>
+								</span>
+							))}
 						</span>
 					</span>
 				</div>

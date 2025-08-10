@@ -18,4 +18,8 @@ export const contacts: IContacts[] = [
 		title: env.VITE_GMAIL_URL || '',
 		url: env.VITE_GMAIL_URL ? `mailto:${env.VITE_GMAIL_URL}` : '',
 	},
+	{
+		name: 'phone',
+		title: env.VITE_PHONE_NUM || ''
+	},
 ]

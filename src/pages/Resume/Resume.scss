@@ -1,4 +1,9 @@
 .header {
+
+	&__text {
+		min-width: 320px;
+	}
+
 	@media screen and (max-width: 680px) {
 		&__content {
 			flex-direction: column;
@@ -12,4 +17,16 @@
 .pdf-divider {
 	display: flex;
 	height: 150px;
+}
+
+.contact {
+	.copy-btn {
+		display: none;
+	}
+
+	&:hover {
+		.copy-btn {
+			display: block;
+		}
+	}
 }
